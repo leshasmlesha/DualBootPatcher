@@ -26,7 +26,8 @@ If you don't have docker installed, the following packages are needed:
     export ANDROID_NDK=/path/to/android-ndk
     ```
     and this is ubuntu 18.04 and my ndk
-        ```sh
+    
+     ```sh
     export ANDROID_HOME=$(pwd)/android-sdk
     export ANDROID_NDK_HOME=$(pwd)/android-ndk
     export ANDROID_NDK=$(pwd)/android-ndk
