@@ -25,6 +25,12 @@ If you don't have docker installed, the following packages are needed:
     export ANDROID_NDK_HOME=/path/to/android-ndk
     export ANDROID_NDK=/path/to/android-ndk
     ```
+    and this is ubuntu 18.04 and my ndk
+        ```sh
+    export ANDROID_HOME=$(pwd)/android-sdk
+    export ANDROID_NDK_HOME=$(pwd)/android-ndk
+    export ANDROID_NDK=$(pwd)/android-ndk
+    ```
 
 3. If making a release build, make a copy of `cmake/SigningConfig.prop.in` and edit it to specify the keystore path, keystore passphrase, key alias, and key passphrase.
 
